@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Windows;
-using System.Windows.Forms;
 
 namespace WebpConverter
 {
@@ -31,13 +31,14 @@ namespace WebpConverter
 
         private void SelectFolder_Click(object sender, RoutedEventArgs e)
         {
-            using (FolderBrowserDialog dialog = new FolderBrowserDialog())
+            using (CommonOpenFileDialog dialog = new CommonOpenFileDialog())
             {
-                dialog.RootFolder = Environment.SpecialFolder.Recent;
+                dialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Recent);
+                dialog.IsFolderPicker = true;
 
-                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
                 {
-                    selectedFolder = dialog.SelectedPath;
+                    selectedFolder = dialog.FileName;
                     ChosenFolder.Text = $"Selected File: {selectedFolder}";
                 }
             }
