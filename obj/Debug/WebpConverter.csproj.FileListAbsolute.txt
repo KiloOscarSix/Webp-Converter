@@ -13,3 +13,13 @@ E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.csproj.GenerateResour
 E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.csproj.CoreCompileInputs.cache
 E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.exe
 E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.pdb
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.dll
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.pdb
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.xml
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+E:\Projects\On-Going\WebpConverter\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.csproj.CopyComplete
