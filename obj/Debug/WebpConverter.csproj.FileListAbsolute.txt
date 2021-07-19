@@ -1,0 +1,15 @@
+E:\Projects\On-Going\WebpConverter\bin\Debug\WebpConverter.exe.config
+E:\Projects\On-Going\WebpConverter\bin\Debug\WebpConverter.exe
+E:\Projects\On-Going\WebpConverter\bin\Debug\WebpConverter.pdb
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.csproj.AssemblyReference.cache
+E:\Projects\On-Going\WebpConverter\obj\Debug\MainWindow.g.cs
+E:\Projects\On-Going\WebpConverter\obj\Debug\App.g.cs
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter_MarkupCompile.cache
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter_MarkupCompile.lref
+E:\Projects\On-Going\WebpConverter\obj\Debug\MainWindow.baml
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.g.resources
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.Properties.Resources.resources
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.csproj.GenerateResource.cache
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.csproj.CoreCompileInputs.cache
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.exe
+E:\Projects\On-Going\WebpConverter\obj\Debug\WebpConverter.pdb

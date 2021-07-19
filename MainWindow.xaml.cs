@@ -5,8 +5,7 @@ using System.IO;
 using System.Windows;
 using System.Windows.Forms;
 
-
-namespace Webp_Converter
+namespace WebpConverter
 {
     public partial class MainWindow : Window
     {
@@ -32,7 +31,7 @@ namespace Webp_Converter
 
         private void SelectFolder_Click(object sender, RoutedEventArgs e)
         {
-            using (FolderBrowserDialog dialog = new())
+            using (FolderBrowserDialog dialog = new FolderBrowserDialog())
             {
                 dialog.RootFolder = Environment.SpecialFolder.Recent;
 
@@ -49,15 +48,15 @@ namespace Webp_Converter
             SearchOption searchOptions = SearchOption.TopDirectoryOnly;
             if (Setting_SubFolders.IsChecked == true) { searchOptions = SearchOption.AllDirectories; }
 
-            List<string> files = new();
+            List<string> files = new List<string>();
             if (Setting_jpg.IsChecked == true) { files.AddRange(Directory.GetFiles(selectedFolder, "*.jpg", searchOptions)); }
             if (Setting_png.IsChecked == true) { files.AddRange(Directory.GetFiles(selectedFolder, "*.png", searchOptions)); }
             if (Setting_webp.IsChecked == true) { files.AddRange(Directory.GetFiles(selectedFolder, "*.webp", searchOptions)); }
 
             foreach (string file in files)
             {
-                Process process = new();
-                ProcessStartInfo startInfo = new();
+                Process process = new Process();
+                ProcessStartInfo startInfo = new ProcessStartInfo();
                 startInfo.FileName = "cmd.exe";
                 startInfo.WorkingDirectory = rootPath;
                 startInfo.Arguments = $"/C .\\cwebp.exe /b -mt -progress -m 6 -q {Math.Round(QualitySlider.Value)} \"{file}\" -o \"{Path.ChangeExtension(file, ".webp")}\"";
